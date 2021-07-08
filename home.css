@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: #fefefe;
+    display: inline-flex;
+    margin-top: 111px;
+}
+
+
+/* Top navigation bar styling */
+.top-nav {
+    background-color: #101c2d;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-nav,
+.left-nav {
+    align-self: center;
+}
+
+.right-nav a {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.right-nav a {
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.right-nav a:hover {
+    color: rgb(211, 61, 61);
+    background-color: #fefefe;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.left-nav img {
+    height: 64px;
+    width: 64px;
+}
+
+.left-nav a {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: grey;
+}
+
+.left-nav a:hover {
+    opacity: 0.7;
+    border: 2px solid grey;
+    background-color: white;
+}
+
+.left-nav h1 {
+    color: white;
+    align-self: center;
+}
+
+/* Side bar styling */
+.side-nav {
+    padding: 10px 55px;
+    font-size: 50%;
+}
+
+.profile,
+.posts {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+}
+
+.profile a,
+.posts a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.profile img,
+.posts img {
+    height: 20px;
+    margin-top: 2px;
+    margin-right: 7px;
+}
+
+.profile a:hover,
+.posts a:hover {
+    color:rgb(211, 61, 61);
+}
+
+
+/* Fixed nav and side bars */
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.side-nav {
+    position: fixed;
+    width: 100px;
+}
+
+.article-list {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+
+/* Article list styling */
+
+.article-list article{
+    padding-right: 20px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #101c2d;
+}
+
+.article-list h1 {
+    color: rgb(211, 61, 61);
+    margin-bottom: 2px;
+    font-size: 30px;
+}
+
+.article-paragraph {
+    font-size: 20px;
+    color: #101c2d;
+    margin-top: 0%;
+}
+
+.article-list a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #101c2d;
+}
+
+.article-list a:hover {
+    color: rgb(211, 61, 61);
+}
+
+.user-info-post {
+    display: inline-flex;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.user-info-post img {
+    height: 40px;
+    width: 40px;
+    border: 3px solid #101c2d;
+    border-radius: 50%;
+}
+
+.user-info-post p {
+    margin-left: 5px;
+    color: #101c2d;
+    font-weight: 700;
+}
+
+
+/* Footer styling below */
+
+footer {
+    background-color: rgb(167, 167, 167);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.facebook,
+.twitter,
+.mailto {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.facebook a,
+.twitter a,
+.mailto a{
+    align-self: center;
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.facebook a:hover,
+.twitter a:hover,
+.mailto a:hover {
+    color: rgb(211, 61, 61);
+}
+
+.facebook img,
+.twitter img,
+.mailto img {
+    height: 30px;
+    width: 30px;
+    opacity: 0.4;
+}
+
+footer p {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    font-size: 15px;
+    color: rgb(82, 82, 82);
+    font-weight: 500;
+}
